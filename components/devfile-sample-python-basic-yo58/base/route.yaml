@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-python-basic-yo58
     app.kubernetes.io/part-of: my-app-3
-  name: devfile-sample-python-bascfhm
+  name: devfile-sample-python-basnk5q
   namespace: burrzinga-hac-tenant
 spec:
   path: /
