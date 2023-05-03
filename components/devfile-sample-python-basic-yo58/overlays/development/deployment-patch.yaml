@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-yo58
+  namespace: burrzinga-hac-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/burrzinga-hac-tenant/my-app-3/devfile-sample-python-basic-yo58@sha256:8e170fa27c4e5fcc878a9cc747b64483012bc86b10c887df7cbf12a95be146bb
+        name: my-python
+        resources: {}
+status: {}
